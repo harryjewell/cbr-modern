@@ -1,5 +1,9 @@
 # cbr-modern
 
+This repo contains the bare-minimum you need to get started twith Vue/Nuxt.
+
+You will see that I load the buildings and content from the home page.
+
 ## Build Setup
 
 ```bash
@@ -70,3 +74,4 @@ More information about the usage of this directory in [the documentation](https:
 ## Node version
 
 nvm install v16.15.0
+
