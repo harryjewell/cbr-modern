@@ -1,0 +1,15 @@
+<template>
+  <div class="container">
+    <h2>About</h2>
+		<h3>Filename: pages/about.vue</h3>
+
+		<SiteNavigation />
+
+  </div>
+</template>
+
+<script>
+export default {
+  name: 'IndexPage'
+}
+</script>
