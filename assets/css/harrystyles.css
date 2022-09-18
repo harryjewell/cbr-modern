@@ -1,0 +1,150 @@
+/* Styles the paragraph text on each page */
+p {
+    color: #2e2e2e;
+    font-family: 'Futura Std', sans-serif;
+}
+
+/* Styles the headings on each page */
+h2 {
+  color: #2e2e2e;
+  font-family: 'Futura Std', sans-serif;
+}
+
+/* Styles the sub headings on relevant pages */
+h4 {
+  color: #2e2e2e;
+  font-family: 'Futura Std', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* Styles the body on each page, kinda pointless */
+body {
+    background-color: #F6E280;
+}
+
+/* does the same thing as the body but better, full page width */
+.vsc-initialized {
+  background-color: #2e2e2e;
+  max-width: 100vw;
+}
+
+/* Styles the navigation bar */
+nav {
+  background-color: #F6E280;
+  font-family: 'Futura Std', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 5px;   
+}
+
+.logonav {
+display: inline;
+max-width: 100px;
+border-radius: 0px;
+margin-right: 20px;
+}
+
+/* colours the navigation buttons */
+.btn {
+  color: #2e2e2e;
+  background-color: #EEA383;
+  border-color: #EEA383;
+}
+
+/* colours the navigation buttons on hover action */
+.btn-primary:hover {
+  color: #2e2e2e;
+  background-color: #EF6F76;
+  border-color: #EF6F76;
+}
+
+/* Styles the container class on each page */
+.container {
+  background-color: white;
+  margin: auto;
+  padding: 15px;
+  max-width: 90vw;
+}
+
+/* Styles images and provides borders for each image */
+img {
+  margin: auto;
+  display: block;
+  /* border: 10px solid #F6E280; */
+  border-radius: 15px;
+  max-width: 500px;
+
+}
+
+/* Styles Homepage Logo image  */
+.logohome {
+  margin: auto;
+  display: block;
+  /* border: 10px solid #F6E280; */
+  border-radius: 100vh;
+  max-width: 40vw;
+  max-height: 40vw;
+}
+
+/* adjusts the "border width" of each list item */
+.building {
+  max-width: 400px;
+}
+
+/* Hides the weird thing at the bottom of the about page */
+pre {
+  display: none;
+}
+
+
+/* sets the max width of the containing div to 100% of the screen */
+  .building {
+    max-width: 100vw;
+
+  }
+
+  /* uses FANCY GRID TECHNOLOGY to align the list group into a grid, defines grid */
+  .list-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+  }
+
+/* handles styling of individual list items */
+  .list-group-item {
+    background-color:#F6E280;
+    margin: 10px;
+
+    /* haven't figured out yet why below doesn't work */
+    border: #2e2e2e;
+    border: 10px;
+    border-color: #EEA383;
+
+  }
+
+/* Styles list items on each page */
+li {
+  color: #2e2e2e;
+  font-family: 'Futura Std', sans-serif;
+  border-radius: 10px;
+  }
+
+/* handles layout for text on homepage */
+ .hometext {
+  max-width: 1fr;
+  max-width: fit-content;
+ }
+
+ /* handles layout for text and logo on homepage */
+ .homelayout {
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr ;
+  place-items: center;
+ }
+

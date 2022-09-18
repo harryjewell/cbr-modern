@@ -1,9 +1,10 @@
 <template>
 	<div class="container">
-		<h2>All buildings</h2>
-		<h3>Filename: pages/buildings/index.vue</h3>
-
 		<SiteNavigation />
+		<!-- FROM ORIGINAL PAGE, UNCOMMENT IF DESIRED -->
+		<!-- BUILDINGS PAGE -->
+		<h2>All buildings</h2> 
+		<!-- <h3>Filename: pages/buildings/index.vue</h3> -->
 
 
 		<div class="building">
@@ -36,5 +37,5 @@ export default {
 </script>
 
 
-<style>
-</style>
+
+

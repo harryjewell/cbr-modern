@@ -1,6 +1,6 @@
 <!-- this component returns a list of all the buildings -->
 <template>
-	<div class="">
+	<div class="grid">
 		<!-- these would show while the data loads or if an error -->
 		<p v-if="$fetchState.pending">Loading buildings...</p>
 		<p v-else-if="$fetchState.error">Error while fetching buildings</p>
@@ -18,7 +18,9 @@
 				: {{ building.acf.year }}
 			</li>
 		</ul>
-		<h3>this list is stored in components/BuildingsList.vue</h3>
+		
+		<!-- FROM ORIGINAL PAGE, UNCOMMENT IF DESIRED -->
+		<!-- <h3>this list is stored in components/BuildingsList.vue</h3> -->
 
 	</div>
 </template>
@@ -39,3 +41,5 @@ export default {
 	},
 }
 </script>
+
+
