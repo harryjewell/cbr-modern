@@ -1,3 +1,41 @@
+RATIONALE/REFLECTION
+It’s fair to say that JS and other frameworks are a weak point for me, as such I was able to cobble together 
+a result for this assignment that doesn’t *completely* suck.
+
+The site is functional, with help from Ben and Jarryd I was able to piece together the foundational 
+elements of the site, better understand how to interact with API’s and begin learning about how they function.
+
+While the desired outcomes for any of my creations are almost certainly unrealistic, I knew from the beginning with this 
+project that my site would inevitably look rather basic. Acknowledging my current skill level from the start 
+proved to be a strong motivator for me.
+
+I haven’t managed to get the site hosted this time around, but I’m told a GitHub repository is acceptable 
+so that’s what I’m running with. I have struggled with getting sites hosted in the past as this adds an additional 
+layer of complexity, however, I am still a *relatively* new user when it comes to GitHub, so learning some of the 
+basics re commits, branches, forks and GitHub site/app layout has been quite beneficial for me.
+
+I picked up a few simple CSS tricks I wasn’t previously aware of regarding grid layouts and responsiveness which was also helpful. 
+My prior knowledge of how to target elements of a webpage with CSS came in handy when I first encountered the “oh I can’t change 
+these html elements to suit my CSS” problem. At first this was a struggle, but once I managed to make progress, 
+I had a few “EUREKA” moments, which proved to be thoroughly satisfying.
+
+Regarding my design choices, I opted to utilise the orange/red colour from the CM logo as a highlight, I felt this provided the 
+best contrast with the grey colour I used throughout the rest of the site, without looking cheap. The site will be responsive on 
+devices with smaller screen sizes, which is a first for me. I think I handled the CSS portion of this assignment quite well 
+considering the time constraints, and nature of interacting with an API for the first time.
+
+I am glad to have had the opportunity to refresh and sharpen my skills in web design, learning basic GitHub and API functionality 
+will be useful when tackling web design in the future.
+Thanks for reading :)
+
+Harry Morton
+u3156409
+
+GitHub repo link
+https://github.com/harryjewell/cbr-modern?organization=harryjewell&organization=harryjewell
+
+
+
 # cbr-modern
 
 This repo contains the bare-minimum you need to get started twith Vue/Nuxt.
