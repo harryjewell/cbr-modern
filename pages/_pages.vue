@@ -4,7 +4,6 @@
 
 		<h2>{{ $route.params.slug }}</h2>
 
-		<!-- FROM ORIGINAL PAGE, UNCOMMENT IF DESIRED -->
 		<h2>About</h2>
 		<!-- <h3>Filename: pages/_pages.vue</h3> -->
 

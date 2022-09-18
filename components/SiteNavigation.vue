@@ -4,7 +4,7 @@
 	<nav>
 
     <NuxtLink to="/">
-            <img src="~assets/images/cmlogonav.png" alt="" class="logonav"></img>
+          <img src="~assets/images/cmlogonav.png" alt="" class="logonav"></img>
       </NuxtLink>
 
       <NuxtLink to="/">

@@ -1,5 +1,5 @@
   <template>
-    <nav>
+    <nav class="eventsnav">
        
         <NuxtLink to="/events">
             <button type="button" class="btn btn-primary">
